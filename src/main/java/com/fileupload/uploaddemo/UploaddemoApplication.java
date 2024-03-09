@@ -12,7 +12,7 @@ import jakarta.annotation.Resource;
 public class UploaddemoApplication implements CommandLineRunner{
 
 	  @Resource
-	  FilesStorageService storageService;
+	  FilesStorageService storageService; 
 
 	  public static void main(String[] args) {
 	    SpringApplication.run(UploaddemoApplication.class, args);
